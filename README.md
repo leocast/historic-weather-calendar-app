@@ -1,2 +1,2 @@
-# historic-weather-calendar-app
-A web app that graphs historic temperature information for a given US zip code.
+# Birthday Weather History App
+User submits their county, state, birthday and birth year. App uses the geographical info to querey NOAA's Historic Observing Metadata Repository (HOMR) for the weather station nearest to where user was born. App parses the returned JSON Object to get high temperatures for that day for all years since user was born. Graph this data as points for each year and as a line for the mean temperature since the user was born.
